@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent — personal automation on one machine</title>
+<meta name="description" content="Hermes Agent is personal automation software that runs on one Linux machine and works on its owner's own Google account.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fdfdfc;
+    --fg: #1c1c1a;
+    --muted: #55554f;
+    --rule: #d9d9d3;
+    --link: #0b4fa8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161a;
+      --fg: #e8e8e4;
+      --muted: #a6a6a0;
+      --rule: #3a3a40;
+      --link: #8ab6f0;
+    }
+  }
+  html { background: var(--bg); }
+  body {
+    margin: 0 auto;
+    max-width: 44rem;
+    padding: 2.5rem 1.25rem 3rem;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    color: var(--fg);
+    background: var(--bg);
+  }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 1rem; margin-bottom: 2rem; }
+  header .name { font-size: 1.35rem; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+  header .tag { color: var(--muted); margin: 0.25rem 0 0; font-size: 0.95rem; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 0.5rem; }
+  p, li { margin: 0 0 0.85rem; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--link); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+  footer { border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 1rem; color: var(--muted); font-size: 0.95rem; }
+  footer a { color: var(--link); }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="name">Hermes Agent</p>
+  <p class="tag">Personal automation software, run by one person on one machine.</p>
+</header>
+
+<main>
+  <h1>What Hermes Agent is</h1>
+  <p>
+    Personal automation software, built on the open source Hermes Agent framework from Nous
+    Research. It runs on one Linux machine that belongs to the account holder, inside his own
+    home network.
+  </p>
+  <p>
+    There is one user: the account holder. The software is not sold, not distributed, and not
+    offered to anyone else. It is not a company or a product. It is a tool one person uses to
+    get his own work done.
+  </p>
+
+  <h2>What it does with Google</h2>
+  <p>
+    When the account holder asks it to, the agent works on his own Google account. It can:
+  </p>
+  <ul>
+    <li>Read and write files in his own Google Drive.</li>
+    <li>Read, change and send mail from his own Gmail account.</li>
+    <li>Read and write his own Google Calendar.</li>
+    <li>Read and edit his own Google Docs and Google Sheets.</li>
+    <li>Read his own Google Contacts.</li>
+  </ul>
+  <p>
+    It asks Google for access to those services only so it can do tasks he sets: filing notes,
+    putting documents together, scheduling things, drafting and sending mail he has asked for,
+    and keeping records. It uses nothing else, and it acts for no one else.
+  </p>
+
+  <h2>Where the data stays</h2>
+  <p>
+    On his own machine and in his own Google account. There is no server behind this software.
+    No one else receives the data.
+  </p>
+
+  <h2>Read more</h2>
+  <p>
+    The <a href="privacy.html">privacy policy</a> explains what data the app touches, why, and
+    how to delete it. The <a href="terms.html">terms of service</a> are short.
+  </p>
+</main>
+
+<footer>
+  <p>
+    <a href="index.html">Home</a> &middot;
+    <a href="privacy.html">Privacy policy</a> &middot;
+    <a href="terms.html">Terms of service</a>
+  </p>
+</footer>
+
+</body>
+</html>
